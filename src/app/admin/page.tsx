@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { Upload, Image as ImageIcon, Trash2, Eye } from "lucide-react";
 import { Picture, Category } from "@/types";
 import Image from "next/image";
-import { upload } from '@vercel/blob/client';
+import { upload } from "@vercel/blob/client";
 
 export default function AdminPage() {
   const [pictures, setPictures] = useState<Picture[]>([]);
@@ -71,15 +71,15 @@ export default function AdminPage() {
         const file = files[i];
 
         // Check file type client-side
-        if (!file.type.startsWith('image/')) {
+        if (!file.type.startsWith("image/")) {
           alert(`${file.name} is not an image file. Skipping.`);
           continue;
         }
 
         // Use client upload for larger file support (up to 50MB)
         const blob = await upload(file.name, file, {
-          access: 'public',
-          handleUploadUrl: '/api/upload',
+          access: "public",
+          handleUploadUrl: "/api/upload",
         });
 
         // Save picture metadata
@@ -204,7 +204,9 @@ export default function AdminPage() {
                 />
               </label>
             </div>
-            <p className="text-xs text-gray-500">PNG, JPG, GIF, WebP up to 50MB</p>
+            <p className="text-xs text-gray-500">
+              PNG, JPG, GIF, WebP up to 50MB
+            </p>
           </div>
           {uploading && (
             <div className="absolute inset-0 bg-white bg-opacity-75 flex items-center justify-center">
@@ -295,7 +297,7 @@ export default function AdminPage() {
                           onChange={(e) =>
                             handleCategoryChange(picture.id, e.target.value)
                           }
-                          className="w-full text-xs border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
+                          className="w-full text-xs text-black border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
                         >
                           <option value="">No category</option>
                           {categories.map((category) => (

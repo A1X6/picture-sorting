@@ -18,7 +18,7 @@ A modern Next.js application for managing and displaying pictures with categoriz
 - **Framework**: Next.js 14 with App Router
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
-- **Storage**: Vercel Blob for images, JSON files for metadata
+- **Storage**: Vercel Blob for images, Vercel Edge Config for metadata
 - **Icons**: Lucide React
 - **File Processing**: JSZip for creating zip archives, file-saver for downloads
 - **Deployment**: Vercel
@@ -28,7 +28,7 @@ A modern Next.js application for managing and displaying pictures with categoriz
 ### Prerequisites
 
 - Node.js 18+ installed
-- A Vercel account (for deployment and blob storage)
+- A Vercel account (for deployment, blob storage, and edge config)
 
 ### Local Development
 
@@ -47,18 +47,37 @@ A modern Next.js application for managing and displaying pictures with categoriz
    ```bash
    cp env.example .env.local
    ```
-   
-   For local development, you'll need to get a Blob token from Vercel:
-   - Go to [Vercel Dashboard](https://vercel.com/dashboard/stores)
-   - Create a new Blob store or use an existing one
-   - Copy the `BLOB_READ_WRITE_TOKEN` and add it to your `.env.local`
 
-4. **Run the development server**
+4. **Set up Vercel Edge Config**
+   
+   **Create Edge Config store:**
+   - Go to [Vercel Dashboard](https://vercel.com/dashboard/stores)
+   - Click "Create Store" → "Edge Config"
+   - Copy the connection string and Edge Config ID
+   
+   **Get Vercel API token:**
+   - Go to [Vercel Account Tokens](https://vercel.com/account/tokens)
+   - Create a new token with full access
+   
+   **Update your `.env.local`:**
+   ```bash
+   EDGE_CONFIG=ecfg_xxx... # Your Edge Config connection string
+   EDGE_CONFIG_ID=ecfg_xxx # Your Edge Config ID  
+   VERCEL_TOKEN=xxx        # Your Vercel API token
+   BLOB_READ_WRITE_TOKEN=xxx # Your Vercel Blob token
+   ```
+
+5. **Initialize Edge Config with default data**
+    ```bash
+    npm run setup-edge-config
+    ```
+
+6. **Run the development server**
    ```bash
    npm run dev
    ```
 
-5. **Open your browser**
+7. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### Admin Access
@@ -82,12 +101,23 @@ A modern Next.js application for managing and displaying pictures with categoriz
    - Import your GitHub repository
    - Vercel will automatically detect it's a Next.js project
 
-3. **Set up Blob Storage**
+3. **Set up Edge Config (Production)**
+   - In your Vercel project dashboard, go to "Storage"
+   - Create a new Edge Config store
+   - The `EDGE_CONFIG` connection string will be automatically added
+   - Add your `VERCEL_TOKEN` to environment variables
+
+4. **Set up Blob Storage**
    - In your Vercel project dashboard, go to "Storage"
    - Create a new Blob store
    - The `BLOB_READ_WRITE_TOKEN` will be automatically added to your environment
 
-4. **Your app is live!**
+5. **Initialize production Edge Config**
+    ```bash
+    npm run setup-edge-config
+    ```
+
+6. **Your app is live!**
    Visit your Vercel URL to see your deployed gallery
 
 ## Usage

@@ -1,18 +1,5 @@
-import { promises as fs } from 'fs';
-import path from 'path';
+import { get } from '@vercel/edge-config';
 import { AppData, Category, Picture } from '@/types';
-
-const DATA_DIR = path.join(process.cwd(), 'data');
-const DATA_FILE = path.join(DATA_DIR, 'app-data.json');
-
-// Ensure data directory exists
-async function ensureDataDir() {
-  try {
-    await fs.access(DATA_DIR);
-  } catch {
-    await fs.mkdir(DATA_DIR, { recursive: true });
-  }
-}
 
 // Initialize default data
 const defaultData: AppData = {
@@ -112,24 +99,57 @@ const defaultData: AppData = {
   lastUpdated: new Date().toISOString(),
 };
 
-// Read data from JSON file
+// Read data from Edge Config
 export async function readData(): Promise<AppData> {
   try {
-    await ensureDataDir();
-    const data = await fs.readFile(DATA_FILE, 'utf-8');
-    return JSON.parse(data);
+    const data = await get('appData') as AppData | null;
+    return data || defaultData;
   } catch (error) {
-    // If file doesn't exist, create it with default data
-    await writeData(defaultData);
+    console.error('Failed to read from Edge Config:', error);
     return defaultData;
   }
 }
 
-// Write data to JSON file
-export async function writeData(data: AppData): Promise<void> {
-  await ensureDataDir();
+// Update Edge Config using Vercel API
+async function updateEdgeConfig(data: AppData): Promise<void> {
+  const edgeConfigId = process.env.EDGE_CONFIG_ID;
+  const vercelToken = process.env.VERCEL_TOKEN;
+  
+  if (!edgeConfigId || !vercelToken) {
+    throw new Error('EDGE_CONFIG_ID and VERCEL_TOKEN must be set');
+  }
+
   data.lastUpdated = new Date().toISOString();
-  await fs.writeFile(DATA_FILE, JSON.stringify(data, null, 2));
+
+  try {
+    const response = await fetch(`https://api.vercel.com/v1/edge-config/${edgeConfigId}/items`, {
+      method: 'PATCH',
+      headers: {
+        'Authorization': `Bearer ${vercelToken}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        items: [
+          {
+            operation: 'upsert',
+            key: 'appData',
+            value: data,
+          },
+        ],
+      }),
+    });
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(`Edge Config update failed: ${response.status} ${errorText}`);
+    }
+
+    // Edge Config updates can take a few seconds to propagate
+    console.log('Edge Config updated successfully');
+  } catch (error) {
+    console.error('Failed to update Edge Config:', error);
+    throw error;
+  }
 }
 
 // Helper functions
@@ -151,7 +171,7 @@ export async function addCategory(category: Omit<Category, 'id' | 'createdAt'>):
     createdAt: new Date().toISOString(),
   };
   data.categories.push(newCategory);
-  await writeData(data);
+  await updateEdgeConfig(data);
   return newCategory;
 }
 
@@ -163,7 +183,7 @@ export async function addPicture(picture: Omit<Picture, 'id' | 'uploadedAt'>): P
     uploadedAt: new Date().toISOString(),
   };
   data.pictures.push(newPicture);
-  await writeData(data);
+  await updateEdgeConfig(data);
   return newPicture;
 }
 
@@ -172,14 +192,14 @@ export async function updatePictureCategory(pictureId: string, categoryId: strin
   const picture = data.pictures.find(p => p.id === pictureId);
   if (picture) {
     picture.categoryId = categoryId;
-    await writeData(data);
+    await updateEdgeConfig(data);
   }
 }
 
 export async function deletePicture(pictureId: string): Promise<void> {
   const data = await readData();
   data.pictures = data.pictures.filter(p => p.id !== pictureId);
-  await writeData(data);
+  await updateEdgeConfig(data);
 }
 
 export async function deleteCategory(categoryId: string): Promise<void> {
@@ -191,5 +211,5 @@ export async function deleteCategory(categoryId: string): Promise<void> {
       picture.categoryId = undefined;
     }
   });
-  await writeData(data);
+  await updateEdgeConfig(data);
 } 

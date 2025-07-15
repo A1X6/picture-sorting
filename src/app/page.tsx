@@ -1,7 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { ChevronDown, Settings, Image as ImageIcon, Download } from "lucide-react";
+import {
+  ChevronDown,
+  Settings,
+  Image as ImageIcon,
+  Download,
+} from "lucide-react";
 import { Picture, Category } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
@@ -59,6 +64,27 @@ export default function GalleryPage() {
     return stats;
   };
 
+  const handleCategoryChange = async (
+    pictureId: string,
+    categoryId: string
+  ) => {
+    try {
+      await fetch(`/api/pictures/${pictureId}`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          categoryId: categoryId || undefined,
+        }),
+      });
+
+      fetchData(); // Refresh the pictures list
+    } catch (error) {
+      console.error("Failed to update picture category:", error);
+    }
+  };
+
   const handleDownloadAll = async () => {
     if (filteredPictures.length === 0) {
       alert("No pictures to download in this category.");
@@ -66,12 +92,12 @@ export default function GalleryPage() {
     }
 
     setDownloading(true);
-    
+
     try {
       const zip = new JSZip();
       const folder = zip.folder(
-        selectedCategory === "all" 
-          ? "All Pictures" 
+        selectedCategory === "all"
+          ? "All Pictures"
           : getCategoryById(selectedCategory)?.name || "Pictures"
       );
 
@@ -81,12 +107,18 @@ export default function GalleryPage() {
         try {
           const response = await fetch(picture.url);
           const blob = await response.blob();
-          
+
           // Get file extension from URL or use jpg as default
-          const urlParts = picture.url.split('.');
-          const extension = urlParts.length > 1 ? urlParts[urlParts.length - 1].split('?')[0] : 'jpg';
-          const fileName = `${picture.fileName.replace(/\.[^/.]+$/, "")}.${extension}`;
-          
+          const urlParts = picture.url.split(".");
+          const extension =
+            urlParts.length > 1
+              ? urlParts[urlParts.length - 1].split("?")[0]
+              : "jpg";
+          const fileName = `${picture.fileName.replace(
+            /\.[^/.]+$/,
+            ""
+          )}.${extension}`;
+
           folder?.file(fileName, blob);
         } catch (error) {
           console.error(`Failed to download ${picture.fileName}:`, error);
@@ -96,12 +128,13 @@ export default function GalleryPage() {
 
       // Generate and download zip
       const content = await zip.generateAsync({ type: "blob" });
-      const categoryName = selectedCategory === "all" 
-        ? "All-Pictures" 
-        : getCategoryById(selectedCategory)?.name.replace(/\s+/g, "-") || "Pictures";
-      
+      const categoryName =
+        selectedCategory === "all"
+          ? "All-Pictures"
+          : getCategoryById(selectedCategory)?.name.replace(/\s+/g, "-") ||
+            "Pictures";
+
       saveAs(content, `${categoryName}-Gallery.zip`);
-      
     } catch (error) {
       console.error("Download failed:", error);
       alert("Download failed. Please try again.");
@@ -181,15 +214,16 @@ export default function GalleryPage() {
                   </select>
                   <ChevronDown className="absolute right-2 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
                 </div>
-                
+
                 <button
                   onClick={handleDownloadAll}
                   disabled={downloading || filteredPictures.length === 0}
                   className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
                   title={`Download all ${filteredPictures.length} pictures in ${
-                    selectedCategory === "all" 
-                      ? "all categories" 
-                      : getCategoryById(selectedCategory)?.name || "this category"
+                    selectedCategory === "all"
+                      ? "all categories"
+                      : getCategoryById(selectedCategory)?.name ||
+                        "this category"
                   }`}
                 >
                   {downloading ? (
@@ -281,16 +315,13 @@ export default function GalleryPage() {
                       sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"
                     />
                     {category && (
-                      <div
+                      <div 
                         className="absolute top-2 left-2 px-2 py-1 rounded text-white text-xs font-medium shadow-sm"
                         style={{ backgroundColor: category.color }}
                       >
                         {category.name}
                       </div>
                     )}
-
-                    {/* Overlay for better category visibility */}
-                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-opacity duration-200" />
                   </div>
 
                   <div className="p-3">
@@ -300,6 +331,25 @@ export default function GalleryPage() {
                     >
                       {picture.fileName}
                     </p>
+                    <div className="mt-2">
+                      <label className="block text-xs font-medium text-gray-700 mb-1">
+                        Category
+                      </label>
+                      <select
+                        value={picture.categoryId || ""}
+                        onChange={(e) =>
+                          handleCategoryChange(picture.id, e.target.value)
+                        }
+                        className="w-full text-xs text-black border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
+                      >
+                        <option value="">No category</option>
+                        {categories.map((category) => (
+                          <option key={category.id} value={category.id}>
+                            {category.name}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
                     <p className="text-xs text-gray-500 mt-1">
                       {new Date(picture.uploadedAt).toLocaleDateString()}
                     </p>
