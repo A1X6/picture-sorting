@@ -1,0 +1,96 @@
+{
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T22:22:15.574Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-15T22:22:15.580Z"
+}
