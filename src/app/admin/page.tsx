@@ -208,9 +208,9 @@ export default function AdminPage() {
   }
 
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold text-gray-900">
+    <div className="space-y-4 sm:space-y-6">
+      <div className="px-1">
+        <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
           Pictures Management
         </h1>
         <p className="mt-1 text-sm text-gray-600">
@@ -219,12 +219,12 @@ export default function AdminPage() {
       </div>
 
       {/* Upload Area */}
-      <div className="bg-white shadow rounded-lg p-6">
+      <div className="bg-white shadow rounded-lg p-4 sm:p-6">
         <h2 className="text-lg font-medium text-gray-900 mb-4">
           Upload Pictures
         </h2>
         <div
-          className={`relative border-2 border-dashed rounded-lg p-6 transition-colors ${
+          className={`relative border-2 border-dashed rounded-lg p-4 sm:p-6 transition-colors ${
             dragActive
               ? "border-indigo-500 bg-indigo-50"
               : "border-gray-300 hover:border-gray-400"
@@ -235,13 +235,13 @@ export default function AdminPage() {
           onDrop={handleDrop}
         >
           <div className="text-center">
-            <Upload className="mx-auto h-12 w-12 text-gray-400" />
+            <Upload className="mx-auto h-10 w-10 sm:h-12 sm:w-12 text-gray-400" />
             <div className="mt-4">
               <label htmlFor="file-upload" className="cursor-pointer">
-                <span className="text-base font-medium text-indigo-600 hover:text-indigo-500">
+                <span className="text-sm sm:text-base font-medium text-indigo-600 hover:text-indigo-500">
                   Upload files
                 </span>
-                <span className="text-gray-500"> or drag and drop</span>
+                <span className="text-gray-500 text-sm sm:text-base"> or drag and drop</span>
                 <input
                   ref={fileInputRef}
                   id="file-upload"
@@ -255,17 +255,17 @@ export default function AdminPage() {
                 />
               </label>
             </div>
-            <p className="text-xs text-gray-500">PNG, JPG, GIF, WebP up to 50MB</p>
+            <p className="text-xs text-gray-500 mt-2">PNG, JPG, GIF, WebP up to 50MB</p>
           </div>
           {uploading && (
-            <div className="absolute inset-0 bg-white bg-opacity-95 flex items-center justify-center">
-              <div className="w-full max-w-md px-6">
+            <div className="absolute inset-0 bg-white bg-opacity-95 flex items-center justify-center rounded-lg">
+              <div className="w-full max-w-sm sm:max-w-md px-4 sm:px-6">
                 <div className="text-center mb-4">
                   <div className="animate-pulse rounded-full h-3 w-3 bg-indigo-600 mx-auto mb-2"></div>
                   <p className="text-sm font-medium text-gray-700">
                     Uploading {uploadProgress.currentFile} of {uploadProgress.totalFiles} files
                   </p>
-                  <p className="text-xs text-gray-500 truncate" title={uploadProgress.currentFileName}>
+                  <p className="text-xs text-gray-500 truncate px-2" title={uploadProgress.currentFileName}>
                     {uploadProgress.currentFileName}
                   </p>
                 </div>
@@ -304,22 +304,22 @@ export default function AdminPage() {
       </div>
 
       {/* Pictures Grid */}
-      <div className="bg-white shadow rounded-lg">
-        <div className="px-6 py-4 border-b border-gray-200">
+      <div className="bg-white shadow rounded-lg overflow-hidden">
+        <div className="px-4 sm:px-6 py-4 border-b border-gray-200">
           <h2 className="text-lg font-medium text-gray-900">
-            Uploaded Pictures ({pictures.length})
+            Uploaded Pictures {pictures.length > 0 && `(${pictures.length})`}
           </h2>
         </div>
 
         {pictures.length === 0 ? (
-          <div className="px-6 py-12 text-center text-gray-500">
+          <div className="px-4 sm:px-6 py-12 text-center text-gray-500">
             <ImageIcon className="h-12 w-12 mx-auto mb-4 text-gray-300" />
-            <p>No pictures uploaded yet</p>
-            <p className="text-sm">Upload some pictures to get started</p>
+            <p className="text-base font-medium">No pictures uploaded yet</p>
+            <p className="text-sm mt-1">Upload some pictures to get started</p>
           </div>
         ) : (
-          <div className="p-6">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          <div className="p-4 sm:p-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4">
               {pictures.map((picture) => {
                 const category = getCategoryById(picture.categoryId);
                 return (
@@ -333,7 +333,7 @@ export default function AdminPage() {
                         alt={picture.fileName}
                         fill
                         className="object-cover"
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                        sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"
                       />
                       {category && (
                         <div
@@ -349,25 +349,25 @@ export default function AdminPage() {
                             href={picture.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="p-1 bg-white bg-opacity-75 rounded hover:bg-opacity-100 transition-colors"
+                            className="p-1.5 bg-white bg-opacity-90 rounded hover:bg-opacity-100 transition-colors"
                             title="View full size"
                           >
-                            <Eye className="h-4 w-4 text-gray-700" />
+                            <Eye className="h-3 w-3 sm:h-4 sm:w-4 text-gray-700" />
                           </a>
                           <button
                             onClick={() => handleDeletePicture(picture.id)}
-                            className="p-1 bg-white bg-opacity-75 rounded hover:bg-opacity-100 transition-colors"
+                            className="p-1.5 bg-white bg-opacity-90 rounded hover:bg-opacity-100 transition-colors"
                             title="Delete picture"
                           >
-                            <Trash2 className="h-4 w-4 text-red-600" />
+                            <Trash2 className="h-3 w-3 sm:h-4 sm:w-4 text-red-600" />
                           </button>
                         </div>
                       </div>
                     </div>
 
-                    <div className="p-3">
+                    <div className="p-2 sm:p-3">
                       <p
-                        className="text-sm font-medium text-gray-900 truncate"
+                        className="text-xs sm:text-sm font-medium text-gray-900 truncate"
                         title={picture.fileName}
                       >
                         {picture.fileName}

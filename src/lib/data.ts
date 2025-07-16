@@ -164,11 +164,11 @@ export async function getCategories(): Promise<Category[]> {
       },
     });
     const transformedCategories = categories.map(transformCategory);
-    logToFile("Get categories", transformedCategories);
+    // logToFile("Get categories", transformedCategories);
     return transformedCategories;
   } catch (error) {
     console.error("Failed to get categories:", error);
-    logToFile("Get categories error", error);
+    // logToFile("Get categories error", error);
     return [];
   }
 }
@@ -186,11 +186,11 @@ export async function addCategory(
       },
     });
     const transformedCategory = transformCategory(newCategory);
-    logToFile("Add category", transformedCategory);
+    // logToFile("Add category", transformedCategory);
     return transformedCategory;
   } catch (error) {
     console.error("Failed to add category:", error);
-    logToFile("Add category error", error);
+    // logToFile("Add category error", error);
     throw error;
   }
 }
@@ -214,10 +214,10 @@ export async function deleteCategory(categoryId: string): Promise<void> {
       },
     });
     
-    logToFile("Delete category", { categoryId });
+    // logToFile("Delete category", { categoryId });
   } catch (error) {
     console.error("Failed to delete category:", error);
-    logToFile("Delete category error", error);
+    // logToFile("Delete category error", error);
     throw error;
   }
 }
@@ -231,11 +231,11 @@ export async function getPictures(): Promise<Picture[]> {
       },
     });
     const transformedPictures = pictures.map(transformPicture);
-    logToFile("Get pictures", transformedPictures);
+    // logToFile("Get pictures", transformedPictures);
     return transformedPictures;
   } catch (error) {
     console.error("Failed to get pictures:", error);
-    logToFile("Get pictures error", error);
+    // logToFile("Get pictures error", error);
     return [];
   }
 }
@@ -255,11 +255,11 @@ export async function addPicture(
       },
     });
     const transformedPicture = transformPicture(newPicture);
-    logToFile("Add picture", transformedPicture);
+    // logToFile("Add picture", transformedPicture);
     return transformedPicture;
   } catch (error) {
     console.error("Failed to add picture:", error);
-    logToFile("Add picture error", error);
+    // logToFile("Add picture error", error);
     throw error;
   }
 }
@@ -277,10 +277,10 @@ export async function updatePictureCategory(
         categoryId: categoryId || null,
       },
     });
-    logToFile("Update picture category", { pictureId, categoryId });
+    // logToFile("Update picture category", { pictureId, categoryId });
   } catch (error) {
     console.error("Failed to update picture category:", error);
-    logToFile("Update picture category error", error);
+    // logToFile("Update picture category error", error);
     throw error;
   }
 }
@@ -292,10 +292,10 @@ export async function deletePicture(pictureId: string): Promise<void> {
         id: pictureId,
       },
     });
-    logToFile("Delete picture", { pictureId });
+    // logToFile("Delete picture", { pictureId });
   } catch (error) {
     console.error("Failed to delete picture:", error);
-    logToFile("Delete picture error", error);
+    // logToFile("Delete picture error", error);
     throw error;
   }
 }

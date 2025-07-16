@@ -160,29 +160,29 @@ export default function GalleryPage() {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <header className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
-              <ImageIcon className="h-8 w-8 text-indigo-600" />
-              <h1 className="ml-2 text-2xl font-bold text-gray-900">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
+          <div className="flex justify-between items-center h-14 sm:h-16">
+            <div className="flex items-center min-w-0 flex-1">
+              <ImageIcon className="h-6 w-6 sm:h-8 sm:w-8 text-indigo-600 flex-shrink-0" />
+              <h1 className="ml-2 text-lg sm:text-2xl font-bold text-gray-900 truncate">
                 Picture Gallery
               </h1>
             </div>
             <Link
               href="/admin/login"
-              className="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 hover:text-gray-700 focus:outline-none"
+              className="inline-flex items-center px-2 sm:px-3 py-2 border border-transparent text-xs sm:text-sm leading-4 font-medium rounded-md text-gray-500 hover:text-gray-700 focus:outline-none flex-shrink-0"
             >
-              <Settings className="h-4 w-4 mr-2" />
-              Admin
+              <Settings className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
+              <span className="hidden sm:inline">Admin</span>
             </Link>
           </div>
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-4 sm:py-6 lg:py-8">
         {/* Controls */}
-        <div className="mb-8">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6">
+        <div className="mb-6 sm:mb-8">
+          <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:items-center sm:justify-between mb-4 sm:mb-6">
             <div>
               <h2 className="text-lg font-medium text-gray-900">
                 {selectedCategory === "all"
@@ -195,59 +195,59 @@ export default function GalleryPage() {
               </p>
             </div>
 
-            <div className="mt-4 sm:mt-0">
-              <div className="flex items-center space-x-3">
-                <div className="relative">
-                  <select
-                    value={selectedCategory}
-                    onChange={(e) => setSelectedCategory(e.target.value)}
-                    className="appearance-none bg-white border border-gray-300 rounded-md px-4 py-2 pr-8 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                  >
-                    <option value="all">
-                      All Categories ({categoryStats.all})
-                    </option>
-                    {categories.map((category) => (
-                      <option key={category.id} value={category.id}>
-                        {category.name} ({categoryStats[category.id] || 0})
-                      </option>
-                    ))}
-                  </select>
-                  <ChevronDown className="absolute right-2 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
-                </div>
-
-                <button
-                  onClick={handleDownloadAll}
-                  disabled={downloading || filteredPictures.length === 0}
-                  className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-                  title={`Download all ${filteredPictures.length} pictures in ${
-                    selectedCategory === "all"
-                      ? "all categories"
-                      : getCategoryById(selectedCategory)?.name ||
-                        "this category"
-                  }`}
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center space-y-3 sm:space-y-0 sm:space-x-3">
+              <div className="relative">
+                <select
+                  value={selectedCategory}
+                  onChange={(e) => setSelectedCategory(e.target.value)}
+                  className="appearance-none bg-white border border-gray-300 rounded-md px-3 sm:px-4 py-2 pr-8 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 w-full sm:w-auto"
                 >
-                  {downloading ? (
-                    <>
-                      <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
-                      Downloading...
-                    </>
-                  ) : (
-                    <>
-                      <Download className="h-4 w-4 mr-2" />
-                      Download ({filteredPictures.length})
-                    </>
-                  )}
-                </button>
+                  <option value="all">
+                    All Categories ({categoryStats.all})
+                  </option>
+                  {categories.map((category) => (
+                    <option key={category.id} value={category.id}>
+                      {category.name} ({categoryStats[category.id] || 0})
+                    </option>
+                  ))}
+                </select>
+                <ChevronDown className="absolute right-2 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
               </div>
+
+              <button
+                onClick={handleDownloadAll}
+                disabled={downloading || filteredPictures.length === 0}
+                className="inline-flex items-center justify-center px-3 sm:px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                title={`Download all ${filteredPictures.length} pictures in ${
+                  selectedCategory === "all"
+                    ? "all categories"
+                    : getCategoryById(selectedCategory)?.name ||
+                      "this category"
+                }`}
+              >
+                {downloading ? (
+                  <>
+                    <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
+                    <span className="hidden sm:inline">Downloading...</span>
+                    <span className="sm:hidden">...</span>
+                  </>
+                ) : (
+                  <>
+                    <Download className="h-4 w-4 mr-1 sm:mr-2" />
+                    <span className="hidden sm:inline">Download ({filteredPictures.length})</span>
+                    <span className="sm:hidden">({filteredPictures.length})</span>
+                  </>
+                )}
+              </button>
             </div>
           </div>
 
           {/* Category Tabs */}
           <div className="border-b border-gray-200">
-            <nav className="-mb-px flex space-x-8 overflow-x-auto">
+            <nav className="-mb-px flex space-x-4 sm:space-x-8 overflow-x-auto scrollbar-hide pb-2 sm:pb-0">
               <button
                 onClick={() => setSelectedCategory("all")}
-                className={`whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm transition-colors ${
+                className={`whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm transition-colors flex-shrink-0 ${
                   selectedCategory === "all"
                     ? "border-indigo-500 text-indigo-600"
                     : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
@@ -259,7 +259,7 @@ export default function GalleryPage() {
                 <button
                   key={category.id}
                   onClick={() => setSelectedCategory(category.id)}
-                  className={`whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm transition-colors ${
+                  className={`whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm transition-colors flex-shrink-0 ${
                     selectedCategory === category.id
                       ? "border-indigo-500 text-indigo-600"
                       : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
@@ -298,7 +298,7 @@ export default function GalleryPage() {
             <p className="text-gray-600">Try selecting a different category.</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 sm:gap-3 lg:gap-4">
             {filteredPictures.map((picture) => {
               const category = getCategoryById(picture.categoryId);
               return (
@@ -312,11 +312,11 @@ export default function GalleryPage() {
                       alt={picture.fileName}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-200"
-                      sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"
+                      sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, (max-width: 1280px) 20vw, 16vw"
                     />
                     {category && (
                       <div 
-                        className="absolute top-2 left-2 px-2 py-1 rounded text-white text-xs font-medium shadow-sm"
+                        className="absolute top-1 sm:top-2 left-1 sm:left-2 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded text-white text-xs font-medium shadow-sm"
                         style={{ backgroundColor: category.color }}
                       >
                         {category.name}
@@ -324,14 +324,14 @@ export default function GalleryPage() {
                     )}
                   </div>
 
-                  <div className="p-3">
+                  <div className="p-2 sm:p-3">
                     <p
-                      className="text-sm font-medium text-gray-900 truncate"
+                      className="text-xs sm:text-sm font-medium text-gray-900 truncate"
                       title={picture.fileName}
                     >
                       {picture.fileName}
                     </p>
-                    <div className="mt-2">
+                    <div className="mt-1 sm:mt-2">
                       <label className="block text-xs font-medium text-gray-700 mb-1">
                         Category
                       </label>
@@ -362,9 +362,9 @@ export default function GalleryPage() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white border-t mt-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <p className="text-center text-sm text-gray-500">
+      <footer className="bg-white border-t mt-8 sm:mt-12">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-3 sm:py-4">
+          <p className="text-center text-xs sm:text-sm text-gray-500">
             Picture Gallery - Sort and view pictures by category
           </p>
         </div>
