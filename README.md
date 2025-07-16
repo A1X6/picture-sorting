@@ -204,6 +204,30 @@ The app uses Tailwind CSS. You can customize colors, spacing, and layout by edit
 
 Edit `src/lib/data.ts` to change the default categories that are created on first run.
 
+## Troubleshooting
+
+### Vercel Deployment: Prisma Client Issues
+
+If you encounter this error when deploying to Vercel:
+
+```
+PrismaClientInitializationError: Prisma has detected that this project was built on Vercel, which caches dependencies...
+```
+
+**Solution:** This has been fixed in the current setup with:
+
+- `postinstall` script that runs `prisma generate` after npm install
+- Updated build script: `prisma generate && next build`
+- `.vercelignore` file to prevent caching of Prisma client
+
+### Database Connection Issues
+
+If you get database connection errors:
+
+1. Verify your `DATABASE_URL` in Vercel environment variables
+2. Ensure your Neon database is active and accessible
+3. Check that your database has the required tables: `npx prisma db push`
+
 ## Contributing
 
 1. Fork the repository

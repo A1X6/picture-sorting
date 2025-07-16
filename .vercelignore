@@ -1,0 +1,2 @@
+# Prevent Vercel from caching Prisma generated files
+node_modules/@prisma/client 
