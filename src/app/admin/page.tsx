@@ -1,10 +1,16 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { Upload, Image as ImageIcon, Trash2, Eye } from "lucide-react";
+import {
+  Upload,
+  Image as ImageIcon,
+  Trash2,
+  Eye,
+  AlertTriangle,
+} from "lucide-react";
 import { Picture, Category } from "@/types";
 import Image from "next/image";
-import { upload } from '@vercel/blob/client';
+import { upload } from "@vercel/blob/client";
 
 export default function AdminPage() {
   const [pictures, setPictures] = useState<Picture[]>([]);
@@ -14,11 +20,12 @@ export default function AdminPage() {
   const [uploadProgress, setUploadProgress] = useState({
     currentFile: 0,
     totalFiles: 0,
-    currentFileName: '',
+    currentFileName: "",
     fileProgress: 0,
-    overallProgress: 0
+    overallProgress: 0,
   });
   const [dragActive, setDragActive] = useState(false);
+  const [deletingAll, setDeletingAll] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -73,14 +80,14 @@ export default function AdminPage() {
   const handleFileUpload = async (files: FileList) => {
     setUploading(true);
     const totalFiles = files.length;
-    
+
     // Initialize progress
     setUploadProgress({
       currentFile: 0,
       totalFiles,
-      currentFileName: '',
+      currentFileName: "",
       fileProgress: 0,
-      overallProgress: 0
+      overallProgress: 0,
     });
 
     try {
@@ -88,33 +95,33 @@ export default function AdminPage() {
         const file = files[i];
 
         // Check file type client-side
-        if (!file.type.startsWith('image/')) {
+        if (!file.type.startsWith("image/")) {
           alert(`${file.name} is not an image file. Skipping.`);
           continue;
         }
 
         // Update progress for current file
-        setUploadProgress(prev => ({
+        setUploadProgress((prev) => ({
           ...prev,
           currentFile: i + 1,
           currentFileName: file.name,
           fileProgress: 0,
-          overallProgress: (i / totalFiles) * 100
+          overallProgress: (i / totalFiles) * 100,
         }));
 
         // Use client upload for larger file support (up to 50MB)
         const blob = await upload(file.name, file, {
-          access: 'public',
-          handleUploadUrl: '/api/upload',
+          access: "public",
+          handleUploadUrl: "/api/upload",
           clientPayload: JSON.stringify({ filename: file.name }),
           onUploadProgress: (progressEvent) => {
             const fileProgress = Math.round(
               (progressEvent.loaded / progressEvent.total) * 100
             );
-            setUploadProgress(prev => ({
+            setUploadProgress((prev) => ({
               ...prev,
               fileProgress,
-              overallProgress: ((i + fileProgress / 100) / totalFiles) * 100
+              overallProgress: ((i + fileProgress / 100) / totalFiles) * 100,
             }));
           },
         });
@@ -132,10 +139,10 @@ export default function AdminPage() {
         });
 
         // Update progress after file is saved
-        setUploadProgress(prev => ({
+        setUploadProgress((prev) => ({
           ...prev,
           fileProgress: 100,
-          overallProgress: ((i + 1) / totalFiles) * 100
+          overallProgress: ((i + 1) / totalFiles) * 100,
         }));
       }
 
@@ -148,9 +155,9 @@ export default function AdminPage() {
       setUploadProgress({
         currentFile: 0,
         totalFiles: 0,
-        currentFileName: '',
+        currentFileName: "",
         fileProgress: 0,
-        overallProgress: 0
+        overallProgress: 0,
       });
       if (fileInputRef.current) {
         fileInputRef.current.value = "";
@@ -192,6 +199,51 @@ export default function AdminPage() {
       fetchData(); // Refresh the pictures list
     } catch (error) {
       console.error("Failed to delete picture:", error);
+    }
+  };
+
+  const handleDeleteAllPictures = async () => {
+    if (pictures.length === 0) {
+      alert("No pictures to delete.");
+      return;
+    }
+
+    const confirmed = confirm(
+      `⚠️ WARNING: This will permanently delete ALL ${pictures.length} pictures from both the database and Vercel Blob storage.\n\nThis action CANNOT be undone.\n\nAre you absolutely sure you want to continue?`
+    );
+
+    if (!confirmed) {
+      return;
+    }
+
+    // Second confirmation for extra safety
+    const doubleConfirmed = confirm(
+      "Last chance! Are you really sure you want to delete ALL pictures? This action is irreversible."
+    );
+
+    if (!doubleConfirmed) {
+      return;
+    }
+
+    setDeletingAll(true);
+    try {
+      const response = await fetch("/api/pictures/delete-all", {
+        method: "DELETE",
+      });
+
+      if (response.ok) {
+        const result = await response.json();
+        alert(result.message || "All pictures deleted successfully!");
+        fetchData(); // Refresh the pictures list
+      } else {
+        const error = await response.json();
+        throw new Error(error.error || "Failed to delete all pictures");
+      }
+    } catch (error) {
+      console.error("Failed to delete all pictures:", error);
+      alert("Failed to delete all pictures. Please try again.");
+    } finally {
+      setDeletingAll(false);
     }
   };
 
@@ -241,7 +293,10 @@ export default function AdminPage() {
                 <span className="text-sm sm:text-base font-medium text-indigo-600 hover:text-indigo-500">
                   Upload files
                 </span>
-                <span className="text-gray-500 text-sm sm:text-base"> or drag and drop</span>
+                <span className="text-gray-500 text-sm sm:text-base">
+                  {" "}
+                  or drag and drop
+                </span>
                 <input
                   ref={fileInputRef}
                   id="file-upload"
@@ -255,7 +310,9 @@ export default function AdminPage() {
                 />
               </label>
             </div>
-            <p className="text-xs text-gray-500 mt-2">PNG, JPG, GIF, WebP up to 50MB</p>
+            <p className="text-xs text-gray-500 mt-2">
+              PNG, JPG, GIF, WebP up to 50MB
+            </p>
           </div>
           {uploading && (
             <div className="absolute inset-0 bg-white bg-opacity-95 flex items-center justify-center rounded-lg">
@@ -263,13 +320,17 @@ export default function AdminPage() {
                 <div className="text-center mb-4">
                   <div className="animate-pulse rounded-full h-3 w-3 bg-indigo-600 mx-auto mb-2"></div>
                   <p className="text-sm font-medium text-gray-700">
-                    Uploading {uploadProgress.currentFile} of {uploadProgress.totalFiles} files
+                    Uploading {uploadProgress.currentFile} of{" "}
+                    {uploadProgress.totalFiles} files
                   </p>
-                  <p className="text-xs text-gray-500 truncate px-2" title={uploadProgress.currentFileName}>
+                  <p
+                    className="text-xs text-gray-500 truncate px-2"
+                    title={uploadProgress.currentFileName}
+                  >
                     {uploadProgress.currentFileName}
                   </p>
                 </div>
-                
+
                 {/* Current File Progress */}
                 <div className="mb-3">
                   <div className="flex justify-between text-xs text-gray-600 mb-1">
@@ -277,7 +338,7 @@ export default function AdminPage() {
                     <span>{uploadProgress.fileProgress}%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div 
+                    <div
                       className="bg-indigo-600 h-2 rounded-full transition-all duration-300 ease-out"
                       style={{ width: `${uploadProgress.fileProgress}%` }}
                     ></div>
@@ -291,7 +352,7 @@ export default function AdminPage() {
                     <span>{Math.round(uploadProgress.overallProgress)}%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
-                    <div 
+                    <div
                       className="bg-green-600 h-2 rounded-full transition-all duration-300 ease-out"
                       style={{ width: `${uploadProgress.overallProgress}%` }}
                     ></div>
@@ -306,9 +367,22 @@ export default function AdminPage() {
       {/* Pictures Grid */}
       <div className="bg-white shadow rounded-lg overflow-hidden">
         <div className="px-4 sm:px-6 py-4 border-b border-gray-200">
-          <h2 className="text-lg font-medium text-gray-900">
-            Uploaded Pictures {pictures.length > 0 && `(${pictures.length})`}
-          </h2>
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <h2 className="text-lg font-medium text-gray-900">
+              Uploaded Pictures {pictures.length > 0 && `(${pictures.length})`}
+            </h2>
+            {pictures.length > 0 && (
+              <button
+                onClick={handleDeleteAllPictures}
+                disabled={deletingAll}
+                className="inline-flex items-center px-3 py-2 border border-red-300 shadow-sm text-sm leading-4 font-medium rounded-md text-red-700 bg-white hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                title="Delete all pictures permanently"
+              >
+                <AlertTriangle className="h-4 w-4 mr-2" />
+                {deletingAll ? "Deleting..." : "Delete All Pictures"}
+              </button>
+            )}
+          </div>
         </div>
 
         {pictures.length === 0 ? (

@@ -285,17 +285,60 @@ export async function updatePictureCategory(
   }
 }
 
-export async function deletePicture(pictureId: string): Promise<void> {
+export async function deletePicture(pictureId: string): Promise<string | null> {
   try {
+    // First get the picture to retrieve its URL
+    const picture = await prisma.picture.findUnique({
+      where: {
+        id: pictureId,
+      },
+      select: {
+        url: true,
+      },
+    });
+
+    if (!picture) {
+      throw new Error("Picture not found");
+    }
+
+    // Delete the picture from database
     await prisma.picture.delete({
       where: {
         id: pictureId,
       },
     });
-    // logToFile("Delete picture", { pictureId });
+    
+    // logToFile("Delete picture", { pictureId, url: picture.url });
+    
+    // Return the URL for blob deletion
+    return picture.url;
   } catch (error) {
     console.error("Failed to delete picture:", error);
     // logToFile("Delete picture error", error);
+    throw error;
+  }
+}
+
+export async function deleteAllPictures(): Promise<string[]> {
+  try {
+    // First, get all picture URLs for blob deletion
+    const pictures = await prisma.picture.findMany({
+      select: {
+        url: true,
+      },
+    });
+    
+    const pictureUrls = pictures.map(picture => picture.url);
+    
+    // Then delete all pictures from the database
+    await prisma.picture.deleteMany({});
+    
+    // logToFile("Delete all pictures", { count: pictureUrls.length, urls: pictureUrls });
+    
+    return pictureUrls;
+  } catch (error) {
+    console.error("Failed to delete all pictures:", error);
+    // logToFile("Delete all pictures error", error);
     throw error;
   }
 }
