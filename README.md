@@ -18,7 +18,8 @@ A modern Next.js application for managing and displaying pictures with categoriz
 - **Framework**: Next.js 14 with App Router
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
-- **Storage**: Vercel Blob for images, Vercel Edge Config for metadata
+- **Database**: PostgreSQL with Prisma ORM
+- **Storage**: Vercel Blob for images, Neon for database
 - **Icons**: Lucide React
 - **File Processing**: JSZip for creating zip archives, file-saver for downloads
 - **Deployment**: Vercel
@@ -28,51 +29,54 @@ A modern Next.js application for managing and displaying pictures with categoriz
 ### Prerequisites
 
 - Node.js 18+ installed
-- A Vercel account (for deployment, blob storage, and edge config)
+- A Vercel account (for deployment and blob storage)
+- A Neon account (for PostgreSQL database)
 
 ### Local Development
 
 1. **Clone the repository**
+
    ```bash
    git clone <your-repo-url>
    cd pictures-sorting
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Set up environment variables**
+
    ```bash
    cp env.example .env.local
    ```
 
-4. **Set up Vercel Edge Config**
-   
-   **Create Edge Config store:**
-   - Go to [Vercel Dashboard](https://vercel.com/dashboard/stores)
-   - Click "Create Store" → "Edge Config"
-   - Copy the connection string and Edge Config ID
-   
-   **Get Vercel API token:**
-   - Go to [Vercel Account Tokens](https://vercel.com/account/tokens)
-   - Create a new token with full access
-   
+4. **Set up Neon Database**
+
+   **Create Neon project:**
+
+   - Go to [Neon Console](https://console.neon.tech/)
+   - Create a new project
+   - Copy the database connection string
+
    **Update your `.env.local`:**
+
    ```bash
-   EDGE_CONFIG=ecfg_xxx... # Your Edge Config connection string
-   EDGE_CONFIG_ID=ecfg_xxx # Your Edge Config ID  
-   VERCEL_TOKEN=xxx        # Your Vercel API token
-   BLOB_READ_WRITE_TOKEN=xxx # Your Vercel Blob token
+   DATABASE_URL="postgresql://username:password@hostname:5432/database_name?sslmode=require"
+   BLOB_READ_WRITE_TOKEN=xxx # Your Vercel Blob token (get from Vercel dashboard)
    ```
 
-5. **Initialize Edge Config with default data**
-    ```bash
-    npm run setup-edge-config
-    ```
+5. **Set up database**
+
+   ```bash
+   npx prisma db push
+   npm run db:seed
+   ```
 
 6. **Run the development server**
+
    ```bash
    npm run dev
    ```
@@ -89,6 +93,7 @@ A modern Next.js application for managing and displaying pictures with categoriz
 ## Deployment to Vercel
 
 1. **Push your code to GitHub**
+
    ```bash
    git add .
    git commit -m "Initial commit"
@@ -96,26 +101,30 @@ A modern Next.js application for managing and displaying pictures with categoriz
    ```
 
 2. **Deploy to Vercel**
+
    - Go to [Vercel Dashboard](https://vercel.com/dashboard)
    - Click "New Project"
    - Import your GitHub repository
    - Vercel will automatically detect it's a Next.js project
 
-3. **Set up Edge Config (Production)**
-   - In your Vercel project dashboard, go to "Storage"
-   - Create a new Edge Config store
-   - The `EDGE_CONFIG` connection string will be automatically added
-   - Add your `VERCEL_TOKEN` to environment variables
+3. **Set up Environment Variables**
+
+   - In your Vercel project dashboard, go to "Settings" → "Environment Variables"
+   - Add your Neon database URL: `DATABASE_URL`
+   - The `BLOB_READ_WRITE_TOKEN` will be automatically added when you create a Blob store
 
 4. **Set up Blob Storage**
+
    - In your Vercel project dashboard, go to "Storage"
    - Create a new Blob store
    - The `BLOB_READ_WRITE_TOKEN` will be automatically added to your environment
 
-5. **Initialize production Edge Config**
-    ```bash
-    npm run setup-edge-config
-    ```
+5. **Initialize production database**
+
+   ```bash
+   npx prisma db push
+   npm run db:seed
+   ```
 
 6. **Your app is live!**
    Visit your Vercel URL to see your deployed gallery
@@ -125,7 +134,7 @@ A modern Next.js application for managing and displaying pictures with categoriz
 ### For Admins
 
 1. **Login**: Visit `/admin/login` and enter the admin password
-2. **Manage Categories**: 
+2. **Manage Categories**:
    - Go to "Categories" tab
    - Add new categories with custom names and colors
    - Delete categories as needed
@@ -138,7 +147,7 @@ A modern Next.js application for managing and displaying pictures with categoriz
 ### For Public Users
 
 1. **View Gallery**: Visit the homepage to see all pictures
-2. **Filter by Category**: 
+2. **Filter by Category**:
    - Use the dropdown menu to filter pictures
    - Or click on the category tabs below
 3. **Download Pictures**: Click the "Download" button to get all pictures in the current category as a zip file
@@ -182,7 +191,7 @@ src/
 Edit `src/app/admin/login/page.tsx` and change the password in the `handleSubmit` function:
 
 ```typescript
-if (password === 'your-new-password') {
+if (password === "your-new-password") {
   // ...
 }
 ```

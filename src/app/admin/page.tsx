@@ -4,13 +4,20 @@ import { useState, useEffect, useRef } from "react";
 import { Upload, Image as ImageIcon, Trash2, Eye } from "lucide-react";
 import { Picture, Category } from "@/types";
 import Image from "next/image";
-import { upload } from "@vercel/blob/client";
+import { upload } from '@vercel/blob/client';
 
 export default function AdminPage() {
   const [pictures, setPictures] = useState<Picture[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
   const [loading, setLoading] = useState(true);
   const [uploading, setUploading] = useState(false);
+  const [uploadProgress, setUploadProgress] = useState({
+    currentFile: 0,
+    totalFiles: 0,
+    currentFileName: '',
+    fileProgress: 0,
+    overallProgress: 0
+  });
   const [dragActive, setDragActive] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -65,21 +72,51 @@ export default function AdminPage() {
 
   const handleFileUpload = async (files: FileList) => {
     setUploading(true);
+    const totalFiles = files.length;
+    
+    // Initialize progress
+    setUploadProgress({
+      currentFile: 0,
+      totalFiles,
+      currentFileName: '',
+      fileProgress: 0,
+      overallProgress: 0
+    });
 
     try {
       for (let i = 0; i < files.length; i++) {
         const file = files[i];
 
         // Check file type client-side
-        if (!file.type.startsWith("image/")) {
+        if (!file.type.startsWith('image/')) {
           alert(`${file.name} is not an image file. Skipping.`);
           continue;
         }
 
+        // Update progress for current file
+        setUploadProgress(prev => ({
+          ...prev,
+          currentFile: i + 1,
+          currentFileName: file.name,
+          fileProgress: 0,
+          overallProgress: (i / totalFiles) * 100
+        }));
+
         // Use client upload for larger file support (up to 50MB)
         const blob = await upload(file.name, file, {
-          access: "public",
-          handleUploadUrl: "/api/upload",
+          access: 'public',
+          handleUploadUrl: '/api/upload',
+          clientPayload: JSON.stringify({ filename: file.name }),
+          onUploadProgress: (progressEvent) => {
+            const fileProgress = Math.round(
+              (progressEvent.loaded / progressEvent.total) * 100
+            );
+            setUploadProgress(prev => ({
+              ...prev,
+              fileProgress,
+              overallProgress: ((i + fileProgress / 100) / totalFiles) * 100
+            }));
+          },
         });
 
         // Save picture metadata
@@ -93,6 +130,13 @@ export default function AdminPage() {
             fileName: file.name,
           }),
         });
+
+        // Update progress after file is saved
+        setUploadProgress(prev => ({
+          ...prev,
+          fileProgress: 100,
+          overallProgress: ((i + 1) / totalFiles) * 100
+        }));
       }
 
       fetchData(); // Refresh the pictures list
@@ -101,6 +145,13 @@ export default function AdminPage() {
       alert("Upload failed. Please try again.");
     } finally {
       setUploading(false);
+      setUploadProgress({
+        currentFile: 0,
+        totalFiles: 0,
+        currentFileName: '',
+        fileProgress: 0,
+        overallProgress: 0
+      });
       if (fileInputRef.current) {
         fileInputRef.current.value = "";
       }
@@ -204,15 +255,48 @@ export default function AdminPage() {
                 />
               </label>
             </div>
-            <p className="text-xs text-gray-500">
-              PNG, JPG, GIF, WebP up to 50MB
-            </p>
+            <p className="text-xs text-gray-500">PNG, JPG, GIF, WebP up to 50MB</p>
           </div>
           {uploading && (
-            <div className="absolute inset-0 bg-white bg-opacity-75 flex items-center justify-center">
-              <div className="text-center">
-                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600 mx-auto"></div>
-                <p className="mt-2 text-sm text-gray-600">Uploading...</p>
+            <div className="absolute inset-0 bg-white bg-opacity-95 flex items-center justify-center">
+              <div className="w-full max-w-md px-6">
+                <div className="text-center mb-4">
+                  <div className="animate-pulse rounded-full h-3 w-3 bg-indigo-600 mx-auto mb-2"></div>
+                  <p className="text-sm font-medium text-gray-700">
+                    Uploading {uploadProgress.currentFile} of {uploadProgress.totalFiles} files
+                  </p>
+                  <p className="text-xs text-gray-500 truncate" title={uploadProgress.currentFileName}>
+                    {uploadProgress.currentFileName}
+                  </p>
+                </div>
+                
+                {/* Current File Progress */}
+                <div className="mb-3">
+                  <div className="flex justify-between text-xs text-gray-600 mb-1">
+                    <span>Current file</span>
+                    <span>{uploadProgress.fileProgress}%</span>
+                  </div>
+                  <div className="w-full bg-gray-200 rounded-full h-2">
+                    <div 
+                      className="bg-indigo-600 h-2 rounded-full transition-all duration-300 ease-out"
+                      style={{ width: `${uploadProgress.fileProgress}%` }}
+                    ></div>
+                  </div>
+                </div>
+
+                {/* Overall Progress */}
+                <div>
+                  <div className="flex justify-between text-xs text-gray-600 mb-1">
+                    <span>Overall progress</span>
+                    <span>{Math.round(uploadProgress.overallProgress)}%</span>
+                  </div>
+                  <div className="w-full bg-gray-200 rounded-full h-2">
+                    <div 
+                      className="bg-green-600 h-2 rounded-full transition-all duration-300 ease-out"
+                      style={{ width: `${uploadProgress.overallProgress}%` }}
+                    ></div>
+                  </div>
+                </div>
               </div>
             </div>
           )}
@@ -297,7 +381,7 @@ export default function AdminPage() {
                           onChange={(e) =>
                             handleCategoryChange(picture.id, e.target.value)
                           }
-                          className="w-full text-xs text-black border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
+                          className="w-full text-xs border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
                         >
                           <option value="">No category</option>
                           {categories.map((category) => (

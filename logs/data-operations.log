@@ -1,0 +1,3231 @@
+[2025-07-16T00:08:00.115Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-15T23:49:51.897Z"
+}
+[2025-07-16T00:08:00.115Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/DESKTOP%20N0%20212untitled-5MVpV7A3YQvuvi9ZHMz2UTel90Ajm8.JPG",
+      "fileName": "DESKTOP N0 212untitled.JPG",
+      "id": "pic_1752624480115_m97glasch",
+      "uploadedAt": "2025-07-16T00:08:00.115Z"
+    }
+  ],
+  "lastUpdated": "2025-07-15T23:49:51.897Z"
+}
+[2025-07-16T00:08:04.832Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-15T23:49:51.897Z"
+}
+[2025-07-16T00:08:04.832Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20215untitled-MqoQcZ4UTsANtxY5CSjcABfDR4wQZK.bmp",
+      "fileName": "desktop n0 215untitled.bmp",
+      "id": "pic_1752624484832_0tecbb6gw",
+      "uploadedAt": "2025-07-16T00:08:04.832Z"
+    }
+  ],
+  "lastUpdated": "2025-07-15T23:49:51.897Z"
+}
+[2025-07-16T00:08:10.692Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-15T23:49:51.897Z"
+}
+[2025-07-16T00:08:10.692Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20246untitled-g7Up3VOatDP3CtqSolHX3Woz0cDjPg.bmp",
+      "fileName": "desktop n0 246untitled.bmp",
+      "id": "pic_1752624490692_ndnwqs0mj",
+      "uploadedAt": "2025-07-16T00:08:10.692Z"
+    }
+  ],
+  "lastUpdated": "2025-07-15T23:49:51.897Z"
+}
+[2025-07-16T00:08:12.467Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-15T23:49:51.897Z"
+}
+[2025-07-16T00:08:12.467Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0160untitled-FPeww0YxLhTKrxvXyiAXVEunP4rgrd.JPG",
+      "fileName": "desktop n0160untitled.JPG",
+      "id": "pic_1752624492467_ne0mz1toz",
+      "uploadedAt": "2025-07-16T00:08:12.467Z"
+    }
+  ],
+  "lastUpdated": "2025-07-15T23:49:51.897Z"
+}
+[2025-07-16T00:08:13.581Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-15T23:49:51.897Z"
+}
+[2025-07-16T00:08:13.581Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-NvZUYd81Lgm0yd76KcfwfNHaM64f7L.JPG",
+      "fileName": "desktop n0162untitled.JPG",
+      "id": "pic_1752624493581_im8g54uq7",
+      "uploadedAt": "2025-07-16T00:08:13.581Z"
+    }
+  ],
+  "lastUpdated": "2025-07-15T23:49:51.897Z"
+}
+[2025-07-16T00:16:13.528Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-16T00:08:13.582Z"
+}
+[2025-07-16T00:16:13.529Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/DESKTOP%20N0%20212untitled-W8Zen56FDPlneMljc1U33s1rUIhtsA.JPG",
+      "fileName": "DESKTOP N0 212untitled.JPG",
+      "id": "pic_1752624973529_xccg5hkgm",
+      "uploadedAt": "2025-07-16T00:16:13.529Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:08:13.582Z"
+}
+[2025-07-16T00:16:17.529Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/DESKTOP%20N0%20212untitled-W8Zen56FDPlneMljc1U33s1rUIhtsA.JPG",
+      "fileName": "DESKTOP N0 212untitled.JPG",
+      "id": "pic_1752624973529_xccg5hkgm",
+      "uploadedAt": "2025-07-16T00:16:13.529Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:16:13.529Z"
+}
+[2025-07-16T00:16:17.530Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/DESKTOP%20N0%20212untitled-W8Zen56FDPlneMljc1U33s1rUIhtsA.JPG",
+      "fileName": "DESKTOP N0 212untitled.JPG",
+      "id": "pic_1752624973529_xccg5hkgm",
+      "uploadedAt": "2025-07-16T00:16:13.529Z"
+    },
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20215untitled-yGwDNfP6ygKKVVTzDKlloyGCeUHSYB.bmp",
+      "fileName": "desktop n0 215untitled.bmp",
+      "id": "pic_1752624977529_63hytqq3f",
+      "uploadedAt": "2025-07-16T00:16:17.529Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:16:13.529Z"
+}
+[2025-07-16T00:16:22.511Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-16T00:08:13.582Z"
+}
+[2025-07-16T00:16:22.511Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20246untitled-bQTnMXi0SxZ1W0gRNehJm0wQl5VSxN.bmp",
+      "fileName": "desktop n0 246untitled.bmp",
+      "id": "pic_1752624982511_9xsntu31n",
+      "uploadedAt": "2025-07-16T00:16:22.511Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:08:13.582Z"
+}
+[2025-07-16T00:16:24.646Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-16T00:08:13.582Z"
+}
+[2025-07-16T00:16:24.646Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0160untitled-Qxhcogs5x6ad5T89gwuXfD1ZZU8Y9o.JPG",
+      "fileName": "desktop n0160untitled.JPG",
+      "id": "pic_1752624984646_wi1e89yp9",
+      "uploadedAt": "2025-07-16T00:16:24.646Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:08:13.582Z"
+}
+[2025-07-16T00:16:26.238Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-16T00:08:13.582Z"
+}
+[2025-07-16T00:16:26.238Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-R5Lv72aA7rAnWy3RaivYpa60b5WjuO.JPG",
+      "fileName": "desktop n0162untitled.JPG",
+      "id": "pic_1752624986238_r9o7alm8r",
+      "uploadedAt": "2025-07-16T00:16:26.238Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:08:13.582Z"
+}
+[2025-07-16T00:18:46.035Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-16T00:08:13.582Z"
+}
+[2025-07-16T00:18:46.035Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-6mEroa9Fp8g4Z6OAMFw0ZroXLfvbCc.JPG",
+      "fileName": "desktop n0162untitled.JPG",
+      "id": "pic_1752625126035_qmt9obgcx",
+      "uploadedAt": "2025-07-16T00:18:46.035Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:08:13.582Z"
+}
+[2025-07-16T00:18:47.995Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-16T00:08:13.582Z"
+}
+[2025-07-16T00:18:47.995Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/DESKTOP%20N0%20212untitled-YZQpLMPcQEVLY94uEsGzrAZXwiXtyE.JPG",
+      "fileName": "DESKTOP N0 212untitled.JPG",
+      "id": "pic_1752625127995_du79au8la",
+      "uploadedAt": "2025-07-16T00:18:47.995Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:08:13.582Z"
+}
+[2025-07-16T00:19:05.998Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-16T00:16:26.238Z"
+}
+[2025-07-16T00:19:05.998Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-784p0CDgWLt85hbOekBVRzOFfieA8Z.JPG",
+      "fileName": "desktop n0162untitled.JPG",
+      "id": "pic_1752625145998_791srec5j",
+      "uploadedAt": "2025-07-16T00:19:05.998Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:16:26.238Z"
+}
+[2025-07-16T00:21:52.603Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-784p0CDgWLt85hbOekBVRzOFfieA8Z.JPG",
+      "fileName": "desktop n0162untitled.JPG",
+      "id": "pic_1752625145998_791srec5j",
+      "uploadedAt": "2025-07-16T00:19:05.998Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:19:05.999Z"
+}
+[2025-07-16T00:21:52.603Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-784p0CDgWLt85hbOekBVRzOFfieA8Z.JPG",
+      "fileName": "desktop n0162untitled.JPG",
+      "id": "pic_1752625145998_791srec5j",
+      "uploadedAt": "2025-07-16T00:19:05.998Z"
+    },
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0160untitled-LhjvwwZOIRbjZs220LwWkKIJsnBipB.JPG",
+      "fileName": "desktop n0160untitled.JPG",
+      "id": "pic_1752625312603_j53yjaij6",
+      "uploadedAt": "2025-07-16T00:21:52.603Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:19:05.999Z"
+}
+[2025-07-16T00:33:39.599Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-16T00:21:52.603Z"
+}
+[2025-07-16T00:33:39.599Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-yzPYs15pM9fbR8dbmS0LK0nWwL56f2.JPG",
+      "fileName": "desktop n0162untitled.JPG",
+      "id": "pic_1752626019599_w0uz1ml07",
+      "uploadedAt": "2025-07-16T00:33:39.599Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:21:52.603Z"
+}
+[2025-07-16T00:36:15.740Z] Read data before adding picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [],
+  "lastUpdated": "2025-07-16T00:21:52.603Z"
+}
+[2025-07-16T00:36:15.741Z] Data after adding new picture: {
+  "categories": [
+    {
+      "id": "arabic-proverbs",
+      "name": "Arabic Proverbs",
+      "color": "#10b981",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "artworks-done-especially-for-my-kids",
+      "name": "Artworks Done Especially For My Kids",
+      "color": "#ef4444",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "combination-design-and-colour",
+      "name": "Combination Design and Colour",
+      "color": "#8b5cf6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "english-proverbs",
+      "name": "English Proverbs",
+      "color": "#3b82f6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "khaldoon-unique-freehand-writing",
+      "name": "Khaldoon Unique Freehand Writing",
+      "color": "#f97316",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "modern-painting",
+      "name": "Modern Painting",
+      "color": "#06b6d4",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "personal-names",
+      "name": "Personal Names",
+      "color": "#ec4899",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "sign-label",
+      "name": "Sign Label",
+      "color": "#eab308",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "still-life",
+      "name": "Still Life",
+      "color": "#84cc16",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "t-shirt",
+      "name": "T Shirt",
+      "color": "#a855f7",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-aya",
+      "name": "Ultra Modern Aya",
+      "color": "#6366f1",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-duaa",
+      "name": "Ultra Modern Duaa",
+      "color": "#14b8a6",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-hadith",
+      "name": "Ultra Modern Hadith",
+      "color": "#22c55e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "ultra-modern-style",
+      "name": "Ultra Modern Style",
+      "color": "#f59e0b",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    },
+    {
+      "id": "with-oriental-taste",
+      "name": "With Oriental Taste",
+      "color": "#f43f5e",
+      "createdAt": "2025-07-15T23:00:33.755Z"
+    }
+  ],
+  "pictures": [
+    {
+      "url": "https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-j8cMcfc7Tw83uDPNpYu7l43UBPNLes.JPG",
+      "fileName": "desktop n0162untitled.JPG",
+      "id": "pic_1752626175741_w86nxdxez",
+      "uploadedAt": "2025-07-16T00:36:15.741Z"
+    }
+  ],
+  "lastUpdated": "2025-07-16T00:21:52.603Z"
+}
+{"timestamp":"2025-07-16T01:06:19.789Z","operation":"Get categories","data":"[\n  {\n    \"id\": \"arabic-proverbs\",\n    \"name\": \"Arabic Proverbs\",\n    \"color\": \"#10b981\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"artworks-done-especially-for-my-kids\",\n    \"name\": \"Artworks Done Especially For My Kids\",\n    \"color\": \"#ef4444\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"combination-design-and-colour\",\n    \"name\": \"Combination Design and Colour\",\n    \"color\": \"#8b5cf6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"english-proverbs\",\n    \"name\": \"English Proverbs\",\n    \"color\": \"#3b82f6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"khaldoon-unique-freehand-writing\",\n    \"name\": \"Khaldoon Unique Freehand Writing\",\n    \"color\": \"#f97316\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"modern-painting\",\n    \"name\": \"Modern Painting\",\n    \"color\": \"#06b6d4\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"personal-names\",\n    \"name\": \"Personal Names\",\n    \"color\": \"#ec4899\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"sign-label\",\n    \"name\": \"Sign Label\",\n    \"color\": \"#eab308\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"still-life\",\n    \"name\": \"Still Life\",\n    \"color\": \"#84cc16\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"t-shirt\",\n    \"name\": \"T Shirt\",\n    \"color\": \"#a855f7\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-aya\",\n    \"name\": \"Ultra Modern Aya\",\n    \"color\": \"#6366f1\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-duaa\",\n    \"name\": \"Ultra Modern Duaa\",\n    \"color\": \"#14b8a6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-hadith\",\n    \"name\": \"Ultra Modern Hadith\",\n    \"color\": \"#22c55e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-style\",\n    \"name\": \"Ultra Modern Style\",\n    \"color\": \"#f59e0b\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"with-oriental-taste\",\n    \"name\": \"With Oriental Taste\",\n    \"color\": \"#f43f5e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  }\n]"}
+{"timestamp":"2025-07-16T01:06:20.095Z","operation":"Get pictures","data":"[]"}
+{"timestamp":"2025-07-16T01:06:20.096Z","operation":"Get pictures","data":"[]"}
+{"timestamp":"2025-07-16T01:06:20.101Z","operation":"Get pictures","data":"[]"}
+{"timestamp":"2025-07-16T01:06:20.236Z","operation":"Get categories","data":"[\n  {\n    \"id\": \"arabic-proverbs\",\n    \"name\": \"Arabic Proverbs\",\n    \"color\": \"#10b981\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"artworks-done-especially-for-my-kids\",\n    \"name\": \"Artworks Done Especially For My Kids\",\n    \"color\": \"#ef4444\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"combination-design-and-colour\",\n    \"name\": \"Combination Design and Colour\",\n    \"color\": \"#8b5cf6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"english-proverbs\",\n    \"name\": \"English Proverbs\",\n    \"color\": \"#3b82f6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"khaldoon-unique-freehand-writing\",\n    \"name\": \"Khaldoon Unique Freehand Writing\",\n    \"color\": \"#f97316\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"modern-painting\",\n    \"name\": \"Modern Painting\",\n    \"color\": \"#06b6d4\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"personal-names\",\n    \"name\": \"Personal Names\",\n    \"color\": \"#ec4899\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"sign-label\",\n    \"name\": \"Sign Label\",\n    \"color\": \"#eab308\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"still-life\",\n    \"name\": \"Still Life\",\n    \"color\": \"#84cc16\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"t-shirt\",\n    \"name\": \"T Shirt\",\n    \"color\": \"#a855f7\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-aya\",\n    \"name\": \"Ultra Modern Aya\",\n    \"color\": \"#6366f1\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-duaa\",\n    \"name\": \"Ultra Modern Duaa\",\n    \"color\": \"#14b8a6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-hadith\",\n    \"name\": \"Ultra Modern Hadith\",\n    \"color\": \"#22c55e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-style\",\n    \"name\": \"Ultra Modern Style\",\n    \"color\": \"#f59e0b\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"with-oriental-taste\",\n    \"name\": \"With Oriental Taste\",\n    \"color\": \"#f43f5e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  }\n]"}
+{"timestamp":"2025-07-16T01:06:20.317Z","operation":"Get categories","data":"[\n  {\n    \"id\": \"arabic-proverbs\",\n    \"name\": \"Arabic Proverbs\",\n    \"color\": \"#10b981\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"artworks-done-especially-for-my-kids\",\n    \"name\": \"Artworks Done Especially For My Kids\",\n    \"color\": \"#ef4444\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"combination-design-and-colour\",\n    \"name\": \"Combination Design and Colour\",\n    \"color\": \"#8b5cf6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"english-proverbs\",\n    \"name\": \"English Proverbs\",\n    \"color\": \"#3b82f6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"khaldoon-unique-freehand-writing\",\n    \"name\": \"Khaldoon Unique Freehand Writing\",\n    \"color\": \"#f97316\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"modern-painting\",\n    \"name\": \"Modern Painting\",\n    \"color\": \"#06b6d4\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"personal-names\",\n    \"name\": \"Personal Names\",\n    \"color\": \"#ec4899\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"sign-label\",\n    \"name\": \"Sign Label\",\n    \"color\": \"#eab308\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"still-life\",\n    \"name\": \"Still Life\",\n    \"color\": \"#84cc16\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"t-shirt\",\n    \"name\": \"T Shirt\",\n    \"color\": \"#a855f7\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-aya\",\n    \"name\": \"Ultra Modern Aya\",\n    \"color\": \"#6366f1\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-duaa\",\n    \"name\": \"Ultra Modern Duaa\",\n    \"color\": \"#14b8a6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-hadith\",\n    \"name\": \"Ultra Modern Hadith\",\n    \"color\": \"#22c55e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-style\",\n    \"name\": \"Ultra Modern Style\",\n    \"color\": \"#f59e0b\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"with-oriental-taste\",\n    \"name\": \"With Oriental Taste\",\n    \"color\": \"#f43f5e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  }\n]"}
+{"timestamp":"2025-07-16T01:09:30.202Z","operation":"Add picture","data":"{\n  \"id\": \"pic_1752628170005_f7h8x1v85\",\n  \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/DESKTOP%20N0%20212untitled-ZspI1mD48jgTDKbR4YMHCl4VZ4boux.JPG\",\n  \"fileName\": \"DESKTOP N0 212untitled.JPG\",\n  \"uploadedAt\": \"2025-07-16T01:09:30.006Z\"\n}"}
+{"timestamp":"2025-07-16T01:09:33.714Z","operation":"Add picture","data":"{\n  \"id\": \"pic_1752628173651_w87g5z5cs\",\n  \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20215untitled-EOodZWcW0fisPZ0le2suiFyTJAOG4M.bmp\",\n  \"fileName\": \"desktop n0 215untitled.bmp\",\n  \"uploadedAt\": \"2025-07-16T01:09:33.652Z\"\n}"}
+{"timestamp":"2025-07-16T01:09:37.703Z","operation":"Add picture","data":"{\n  \"id\": \"pic_1752628177640_spzi27wxu\",\n  \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20246untitled-gMSR68NCCZPM0FLHK7sfTs9La1pmMW.bmp\",\n  \"fileName\": \"desktop n0 246untitled.bmp\",\n  \"uploadedAt\": \"2025-07-16T01:09:37.641Z\"\n}"}
+{"timestamp":"2025-07-16T01:09:38.845Z","operation":"Add picture","data":"{\n  \"id\": \"pic_1752628178782_z7d9h0i4i\",\n  \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0160untitled-6UQc8KT2dCVLcL6MlNH2WdL4pR1xiL.JPG\",\n  \"fileName\": \"desktop n0160untitled.JPG\",\n  \"uploadedAt\": \"2025-07-16T01:09:38.783Z\"\n}"}
+{"timestamp":"2025-07-16T01:09:39.867Z","operation":"Add picture","data":"{\n  \"id\": \"pic_1752628179804_hqj14ztoh\",\n  \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-E5lGBWzrYb12RdIdlt475dPIjazNdr.JPG\",\n  \"fileName\": \"desktop n0162untitled.JPG\",\n  \"uploadedAt\": \"2025-07-16T01:09:39.805Z\"\n}"}
+{"timestamp":"2025-07-16T01:09:40.030Z","operation":"Get pictures","data":"[\n  {\n    \"id\": \"pic_1752628179804_hqj14ztoh\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-E5lGBWzrYb12RdIdlt475dPIjazNdr.JPG\",\n    \"fileName\": \"desktop n0162untitled.JPG\",\n    \"uploadedAt\": \"2025-07-16T01:09:39.805Z\"\n  },\n  {\n    \"id\": \"pic_1752628178782_z7d9h0i4i\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0160untitled-6UQc8KT2dCVLcL6MlNH2WdL4pR1xiL.JPG\",\n    \"fileName\": \"desktop n0160untitled.JPG\",\n    \"uploadedAt\": \"2025-07-16T01:09:38.783Z\"\n  },\n  {\n    \"id\": \"pic_1752628177640_spzi27wxu\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20246untitled-gMSR68NCCZPM0FLHK7sfTs9La1pmMW.bmp\",\n    \"fileName\": \"desktop n0 246untitled.bmp\",\n    \"uploadedAt\": \"2025-07-16T01:09:37.641Z\"\n  },\n  {\n    \"id\": \"pic_1752628173651_w87g5z5cs\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20215untitled-EOodZWcW0fisPZ0le2suiFyTJAOG4M.bmp\",\n    \"fileName\": \"desktop n0 215untitled.bmp\",\n    \"uploadedAt\": \"2025-07-16T01:09:33.652Z\"\n  },\n  {\n    \"id\": \"pic_1752628170005_f7h8x1v85\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/DESKTOP%20N0%20212untitled-ZspI1mD48jgTDKbR4YMHCl4VZ4boux.JPG\",\n    \"fileName\": \"DESKTOP N0 212untitled.JPG\",\n    \"uploadedAt\": \"2025-07-16T01:09:30.006Z\"\n  }\n]"}
+{"timestamp":"2025-07-16T01:09:40.095Z","operation":"Get categories","data":"[\n  {\n    \"id\": \"arabic-proverbs\",\n    \"name\": \"Arabic Proverbs\",\n    \"color\": \"#10b981\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"artworks-done-especially-for-my-kids\",\n    \"name\": \"Artworks Done Especially For My Kids\",\n    \"color\": \"#ef4444\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"combination-design-and-colour\",\n    \"name\": \"Combination Design and Colour\",\n    \"color\": \"#8b5cf6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"english-proverbs\",\n    \"name\": \"English Proverbs\",\n    \"color\": \"#3b82f6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"khaldoon-unique-freehand-writing\",\n    \"name\": \"Khaldoon Unique Freehand Writing\",\n    \"color\": \"#f97316\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"modern-painting\",\n    \"name\": \"Modern Painting\",\n    \"color\": \"#06b6d4\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"personal-names\",\n    \"name\": \"Personal Names\",\n    \"color\": \"#ec4899\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"sign-label\",\n    \"name\": \"Sign Label\",\n    \"color\": \"#eab308\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"still-life\",\n    \"name\": \"Still Life\",\n    \"color\": \"#84cc16\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"t-shirt\",\n    \"name\": \"T Shirt\",\n    \"color\": \"#a855f7\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-aya\",\n    \"name\": \"Ultra Modern Aya\",\n    \"color\": \"#6366f1\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-duaa\",\n    \"name\": \"Ultra Modern Duaa\",\n    \"color\": \"#14b8a6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-hadith\",\n    \"name\": \"Ultra Modern Hadith\",\n    \"color\": \"#22c55e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-style\",\n    \"name\": \"Ultra Modern Style\",\n    \"color\": \"#f59e0b\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"with-oriental-taste\",\n    \"name\": \"With Oriental Taste\",\n    \"color\": \"#f43f5e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  }\n]"}
+{"timestamp":"2025-07-16T01:09:44.627Z","operation":"Get pictures","data":"[\n  {\n    \"id\": \"pic_1752628179804_hqj14ztoh\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-E5lGBWzrYb12RdIdlt475dPIjazNdr.JPG\",\n    \"fileName\": \"desktop n0162untitled.JPG\",\n    \"uploadedAt\": \"2025-07-16T01:09:39.805Z\"\n  },\n  {\n    \"id\": \"pic_1752628178782_z7d9h0i4i\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0160untitled-6UQc8KT2dCVLcL6MlNH2WdL4pR1xiL.JPG\",\n    \"fileName\": \"desktop n0160untitled.JPG\",\n    \"uploadedAt\": \"2025-07-16T01:09:38.783Z\"\n  },\n  {\n    \"id\": \"pic_1752628177640_spzi27wxu\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20246untitled-gMSR68NCCZPM0FLHK7sfTs9La1pmMW.bmp\",\n    \"fileName\": \"desktop n0 246untitled.bmp\",\n    \"uploadedAt\": \"2025-07-16T01:09:37.641Z\"\n  },\n  {\n    \"id\": \"pic_1752628173651_w87g5z5cs\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20215untitled-EOodZWcW0fisPZ0le2suiFyTJAOG4M.bmp\",\n    \"fileName\": \"desktop n0 215untitled.bmp\",\n    \"uploadedAt\": \"2025-07-16T01:09:33.652Z\"\n  },\n  {\n    \"id\": \"pic_1752628170005_f7h8x1v85\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/DESKTOP%20N0%20212untitled-ZspI1mD48jgTDKbR4YMHCl4VZ4boux.JPG\",\n    \"fileName\": \"DESKTOP N0 212untitled.JPG\",\n    \"uploadedAt\": \"2025-07-16T01:09:30.006Z\"\n  }\n]"}
+{"timestamp":"2025-07-16T01:09:44.628Z","operation":"Get categories","data":"[\n  {\n    \"id\": \"arabic-proverbs\",\n    \"name\": \"Arabic Proverbs\",\n    \"color\": \"#10b981\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"artworks-done-especially-for-my-kids\",\n    \"name\": \"Artworks Done Especially For My Kids\",\n    \"color\": \"#ef4444\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"combination-design-and-colour\",\n    \"name\": \"Combination Design and Colour\",\n    \"color\": \"#8b5cf6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"english-proverbs\",\n    \"name\": \"English Proverbs\",\n    \"color\": \"#3b82f6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"khaldoon-unique-freehand-writing\",\n    \"name\": \"Khaldoon Unique Freehand Writing\",\n    \"color\": \"#f97316\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"modern-painting\",\n    \"name\": \"Modern Painting\",\n    \"color\": \"#06b6d4\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"personal-names\",\n    \"name\": \"Personal Names\",\n    \"color\": \"#ec4899\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"sign-label\",\n    \"name\": \"Sign Label\",\n    \"color\": \"#eab308\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"still-life\",\n    \"name\": \"Still Life\",\n    \"color\": \"#84cc16\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"t-shirt\",\n    \"name\": \"T Shirt\",\n    \"color\": \"#a855f7\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-aya\",\n    \"name\": \"Ultra Modern Aya\",\n    \"color\": \"#6366f1\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-duaa\",\n    \"name\": \"Ultra Modern Duaa\",\n    \"color\": \"#14b8a6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-hadith\",\n    \"name\": \"Ultra Modern Hadith\",\n    \"color\": \"#22c55e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-style\",\n    \"name\": \"Ultra Modern Style\",\n    \"color\": \"#f59e0b\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"with-oriental-taste\",\n    \"name\": \"With Oriental Taste\",\n    \"color\": \"#f43f5e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  }\n]"}
+{"timestamp":"2025-07-16T01:09:48.435Z","operation":"Update picture category","data":"{\n  \"pictureId\": \"pic_1752628173651_w87g5z5cs\",\n  \"categoryId\": \"arabic-proverbs\"\n}"}
+{"timestamp":"2025-07-16T01:09:48.542Z","operation":"Get pictures","data":"[\n  {\n    \"id\": \"pic_1752628179804_hqj14ztoh\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-E5lGBWzrYb12RdIdlt475dPIjazNdr.JPG\",\n    \"fileName\": \"desktop n0162untitled.JPG\",\n    \"uploadedAt\": \"2025-07-16T01:09:39.805Z\"\n  },\n  {\n    \"id\": \"pic_1752628178782_z7d9h0i4i\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0160untitled-6UQc8KT2dCVLcL6MlNH2WdL4pR1xiL.JPG\",\n    \"fileName\": \"desktop n0160untitled.JPG\",\n    \"uploadedAt\": \"2025-07-16T01:09:38.783Z\"\n  },\n  {\n    \"id\": \"pic_1752628177640_spzi27wxu\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20246untitled-gMSR68NCCZPM0FLHK7sfTs9La1pmMW.bmp\",\n    \"fileName\": \"desktop n0 246untitled.bmp\",\n    \"uploadedAt\": \"2025-07-16T01:09:37.641Z\"\n  },\n  {\n    \"id\": \"pic_1752628173651_w87g5z5cs\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20215untitled-EOodZWcW0fisPZ0le2suiFyTJAOG4M.bmp\",\n    \"fileName\": \"desktop n0 215untitled.bmp\",\n    \"uploadedAt\": \"2025-07-16T01:09:33.652Z\",\n    \"categoryId\": \"arabic-proverbs\"\n  },\n  {\n    \"id\": \"pic_1752628170005_f7h8x1v85\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/DESKTOP%20N0%20212untitled-ZspI1mD48jgTDKbR4YMHCl4VZ4boux.JPG\",\n    \"fileName\": \"DESKTOP N0 212untitled.JPG\",\n    \"uploadedAt\": \"2025-07-16T01:09:30.006Z\"\n  }\n]"}
+{"timestamp":"2025-07-16T01:09:48.603Z","operation":"Get categories","data":"[\n  {\n    \"id\": \"arabic-proverbs\",\n    \"name\": \"Arabic Proverbs\",\n    \"color\": \"#10b981\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"artworks-done-especially-for-my-kids\",\n    \"name\": \"Artworks Done Especially For My Kids\",\n    \"color\": \"#ef4444\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"combination-design-and-colour\",\n    \"name\": \"Combination Design and Colour\",\n    \"color\": \"#8b5cf6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"english-proverbs\",\n    \"name\": \"English Proverbs\",\n    \"color\": \"#3b82f6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"khaldoon-unique-freehand-writing\",\n    \"name\": \"Khaldoon Unique Freehand Writing\",\n    \"color\": \"#f97316\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"modern-painting\",\n    \"name\": \"Modern Painting\",\n    \"color\": \"#06b6d4\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"personal-names\",\n    \"name\": \"Personal Names\",\n    \"color\": \"#ec4899\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"sign-label\",\n    \"name\": \"Sign Label\",\n    \"color\": \"#eab308\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"still-life\",\n    \"name\": \"Still Life\",\n    \"color\": \"#84cc16\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"t-shirt\",\n    \"name\": \"T Shirt\",\n    \"color\": \"#a855f7\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-aya\",\n    \"name\": \"Ultra Modern Aya\",\n    \"color\": \"#6366f1\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-duaa\",\n    \"name\": \"Ultra Modern Duaa\",\n    \"color\": \"#14b8a6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-hadith\",\n    \"name\": \"Ultra Modern Hadith\",\n    \"color\": \"#22c55e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-style\",\n    \"name\": \"Ultra Modern Style\",\n    \"color\": \"#f59e0b\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"with-oriental-taste\",\n    \"name\": \"With Oriental Taste\",\n    \"color\": \"#f43f5e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  }\n]"}
+{"timestamp":"2025-07-16T01:09:50.897Z","operation":"Update picture category","data":"{\n  \"pictureId\": \"pic_1752628177640_spzi27wxu\",\n  \"categoryId\": \"english-proverbs\"\n}"}
+{"timestamp":"2025-07-16T01:09:50.996Z","operation":"Get pictures","data":"[\n  {\n    \"id\": \"pic_1752628179804_hqj14ztoh\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0162untitled-E5lGBWzrYb12RdIdlt475dPIjazNdr.JPG\",\n    \"fileName\": \"desktop n0162untitled.JPG\",\n    \"uploadedAt\": \"2025-07-16T01:09:39.805Z\"\n  },\n  {\n    \"id\": \"pic_1752628178782_z7d9h0i4i\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0160untitled-6UQc8KT2dCVLcL6MlNH2WdL4pR1xiL.JPG\",\n    \"fileName\": \"desktop n0160untitled.JPG\",\n    \"uploadedAt\": \"2025-07-16T01:09:38.783Z\"\n  },\n  {\n    \"id\": \"pic_1752628177640_spzi27wxu\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20246untitled-gMSR68NCCZPM0FLHK7sfTs9La1pmMW.bmp\",\n    \"fileName\": \"desktop n0 246untitled.bmp\",\n    \"uploadedAt\": \"2025-07-16T01:09:37.641Z\",\n    \"categoryId\": \"english-proverbs\"\n  },\n  {\n    \"id\": \"pic_1752628173651_w87g5z5cs\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/desktop%20n0%20215untitled-EOodZWcW0fisPZ0le2suiFyTJAOG4M.bmp\",\n    \"fileName\": \"desktop n0 215untitled.bmp\",\n    \"uploadedAt\": \"2025-07-16T01:09:33.652Z\",\n    \"categoryId\": \"arabic-proverbs\"\n  },\n  {\n    \"id\": \"pic_1752628170005_f7h8x1v85\",\n    \"url\": \"https://lksyi1yzmnh9xy3h.public.blob.vercel-storage.com/DESKTOP%20N0%20212untitled-ZspI1mD48jgTDKbR4YMHCl4VZ4boux.JPG\",\n    \"fileName\": \"DESKTOP N0 212untitled.JPG\",\n    \"uploadedAt\": \"2025-07-16T01:09:30.006Z\"\n  }\n]"}
+{"timestamp":"2025-07-16T01:09:51.061Z","operation":"Get categories","data":"[\n  {\n    \"id\": \"arabic-proverbs\",\n    \"name\": \"Arabic Proverbs\",\n    \"color\": \"#10b981\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"artworks-done-especially-for-my-kids\",\n    \"name\": \"Artworks Done Especially For My Kids\",\n    \"color\": \"#ef4444\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"combination-design-and-colour\",\n    \"name\": \"Combination Design and Colour\",\n    \"color\": \"#8b5cf6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"english-proverbs\",\n    \"name\": \"English Proverbs\",\n    \"color\": \"#3b82f6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"khaldoon-unique-freehand-writing\",\n    \"name\": \"Khaldoon Unique Freehand Writing\",\n    \"color\": \"#f97316\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"modern-painting\",\n    \"name\": \"Modern Painting\",\n    \"color\": \"#06b6d4\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"personal-names\",\n    \"name\": \"Personal Names\",\n    \"color\": \"#ec4899\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"sign-label\",\n    \"name\": \"Sign Label\",\n    \"color\": \"#eab308\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"still-life\",\n    \"name\": \"Still Life\",\n    \"color\": \"#84cc16\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"t-shirt\",\n    \"name\": \"T Shirt\",\n    \"color\": \"#a855f7\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-aya\",\n    \"name\": \"Ultra Modern Aya\",\n    \"color\": \"#6366f1\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-duaa\",\n    \"name\": \"Ultra Modern Duaa\",\n    \"color\": \"#14b8a6\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-hadith\",\n    \"name\": \"Ultra Modern Hadith\",\n    \"color\": \"#22c55e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"ultra-modern-style\",\n    \"name\": \"Ultra Modern Style\",\n    \"color\": \"#f59e0b\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  },\n  {\n    \"id\": \"with-oriental-taste\",\n    \"name\": \"With Oriental Taste\",\n    \"color\": \"#f43f5e\",\n    \"createdAt\": \"2025-07-16T01:05:42.408Z\"\n  }\n]"}
