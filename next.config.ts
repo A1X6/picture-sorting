@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    unoptimized: true, // Disable image optimization to avoid using Vercel quota
     remotePatterns: [
       // Vercel Blob Storage patterns
       {
